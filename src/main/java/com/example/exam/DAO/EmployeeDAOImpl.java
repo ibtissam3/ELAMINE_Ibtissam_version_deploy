@@ -11,7 +11,8 @@ import jakarta.persistence.Query;
 import java.util.List;
 
 public class EmployeeDAOImpl implements EmployeeDAO {
-    private EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("PU_NAME");
+    private EntityManagerFactory entityManagerFactory = Persistence
+            .createEntityManagerFactory("myPersistenceUnit");
 
 
     @Override

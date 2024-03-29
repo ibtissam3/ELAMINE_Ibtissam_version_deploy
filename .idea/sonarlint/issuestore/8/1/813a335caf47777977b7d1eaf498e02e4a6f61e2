@@ -1,13 +1,8 @@
 
-u	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(æ£•J8ñ‡ÁÖè1
-d
-java:S6813"BRemove this field injection and use constructor injection instead.(Áº–üÿÿÿÿ8…ú¾Öè1
-H
-java:S1948"+Make "employees" transient or serializable.(†»Ñß8Ø‘½Öè1
-T
-java:S1948"2Make "selectedEmployee" transient or serializable.(ì¦’Êıÿÿÿÿ8¯ª¼Öè1
-N
-java:S1948"1Make "employeeService" transient or serializable.(ŞÈ8¹¦–×è1
-N
-java:S1128
-"1Remove this unused import 'jakarta.inject.Named'.(¡†Š8Æ¦–×è1
+u	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(æ£•J8±¬²ßè1
+P
+java:S1874"3Remove this use of "ManagedBean"; it is deprecated.(¡úÚï8Œ·›ãè1
+O
+java:S1874"2Remove this use of "ViewScoped"; it is deprecated.(¡Ñü¹8Œ·›ãè1
+_
+java:S1128"=Remove this unused import 'com.example.exam.DAO.EmployeeDAO'.(İû¶ÿÿÿÿÿ8·›ãè1

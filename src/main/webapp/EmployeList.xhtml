@@ -10,7 +10,7 @@
 <h:body class="container mt-5">
     <h1 class="mb-4">Employee List</h1>
     <h:form>
-        <h:dataTable value="#{employeeBean.allEmployees}" var="employee" class="table">
+        <h:dataTable value="#{employeeBean.employees}" var="employee" class="table">
             <h:column>
                 <f:facet name="header">ID</f:facet>
                 #{employee.id}

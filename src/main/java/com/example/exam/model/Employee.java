@@ -12,8 +12,8 @@ public class Employee {
     private Long id;
     private String name;
     private String email;
-    @ElementCollection
-    private List<String> skills;
+    @Column
+    private String skills;
 
     @ManyToMany
     @JoinTable(name = "project_employee",
@@ -43,7 +43,7 @@ public class Employee {
         return projects;
     }
 
-    public List<String> getSkills() {
+    public String getSkills() {
         return skills;
     }
 
@@ -71,7 +71,7 @@ public class Employee {
         this.projects = projects;
     }
 
-    public void setSkills(List<String> skills) {
+    public void setSkills(String skills) {
         this.skills = skills;
     }
 
