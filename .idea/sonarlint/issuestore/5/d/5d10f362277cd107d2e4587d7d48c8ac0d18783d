@@ -1,0 +1,13 @@
+
+u	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(æ£•J8¶±ÆÖè1
+d
+java:S6813"BRemove this field injection and use constructor injection instead.(Áº–üÿÿÿÿ8½›ÅÖè1
+G
+java:S1948"*Make "projects" transient or serializable.(î¥ ü8¿›ÅÖè1
+S
+java:S1948"1Make "selectedProject" transient or serializable.(äí¢ôûÿÿÿÿ8¿ªÄÖè1
+M
+java:S1948"0Make "projectService" transient or serializable.(Úè±ü8…§–×è1
+N
+java:S1128
+"1Remove this unused import 'jakarta.inject.Named'.(¡†Š8§–×è1

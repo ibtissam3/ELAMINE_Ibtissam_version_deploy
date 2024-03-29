@@ -1,0 +1,9 @@
+
+7
+java:S1220""Move this file to a named package.8·ªÄÖè1
+d
+java:S6813"BRemove this field injection and use constructor injection instead.(Áº–üÿÿÿÿ8½›ÅÖè1
+G
+java:S1948"*Make "projects" transient or serializable.(î¥ ü8¿›ÅÖè1
+S
+java:S1948"1Make "selectedProject" transient or serializable.(äí¢ôûÿÿÿÿ8¿ªÄÖè1

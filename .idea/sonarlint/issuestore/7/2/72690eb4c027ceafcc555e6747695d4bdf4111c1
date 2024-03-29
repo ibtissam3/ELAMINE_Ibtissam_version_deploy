@@ -1,0 +1,16 @@
+
+u	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(æ£•J8´ïÌÖè1
+d
+java:S6813"BRemove this field injection and use constructor injection instead.(Áº–üÿÿÿÿ8»ïÌÖè1
+d
+java:S6813"BRemove this field injection and use constructor injection instead.(Áº–üÿÿÿÿ8½ïÌÖè1
+d
+java:S6813 "BRemove this field injection and use constructor injection instead.(Áº–üÿÿÿÿ8½ïÌÖè1
+O
+java:S1948"2Make "projectEmployees" transient or serializable.(ªíà”8¿ïÌÖè1
+U
+java:S1948"9Make "selectedProjectEmployee" transient or serializable.(ç¢ñh8ÀïÌÖè1
+T
+java:S1948"2Make "selectedEmployee" transient or serializable.(ì¦’Êıÿÿÿÿ8ÀïÌÖè1
+S
+java:S1948"1Make "selectedProject" transient or serializable.(äí¢ôûÿÿÿÿ8ÂïÌÖè1

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+<h:head>
+    <title>EMPLOYE Affectation</title>
+    <h:outputStylesheet library="webjars" name="bootstrap/5.3.3/css/bootstrap.min.css" />
+</h:head>
+<h:body class="container mt-5">
+    <h1 class="mb-4">EMPLOYE Affectation</h1>
+    <h:form>
+        <!-- Liens -->
+        <div class="mb-3">
+            <h:outputLink value="EmployeList.xhtml" class="me-3">Employees</h:outputLink> |
+            <h:outputLink value="index.xhtml">Back to Home</h:outputLink>
+        </div>
+
+        <h3 class="mb-3">Assign Project</h3>
+        <div class="mb-3">
+            <label for="employee" class="form-label">Employee Name:</label>
+            <h:selectOneMenu id="employee" value="#{assignment.employeeId}" class="form-select">
+                <f:selectItem itemLabel="Select Employee" itemValue="" />
+                <f:selectItems value="#{assignment.availableEmployees}" />
+            </h:selectOneMenu>
+        </div>
+
+        <div class="mb-3">
+            <label for="project" class="form-label">Project Name:</label>
+            <h:selectOneMenu id="project" value="#{assignment.projectId}" class="form-select">
+                <f:selectItem itemLabel="Select Project" itemValue="" />
+                <f:selectItems value="#{assignment.availableProjects}" />
+            </h:selectOneMenu>
+        </div>
+
+        <div class="mb-3">
+            <label for="implication" class="form-label">Implication:</label>
+            <h:selectOneMenu id="implication" value="#{assignment.implicationLevel}" class="form-select">
+                <f:selectItem itemLabel="Select Implication" itemValue="" />
+                <f:selectItems value="#{assignment.availableImplications}" />
+            </h:selectOneMenu>
+        </div>
+
+        <h:commandButton value="Assign Project" action="#{assignment.assignProject}" class="btn btn-primary" />
+    </h:form>
+</h:body>
+</html>
