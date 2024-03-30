@@ -1,5 +1,8 @@
 FROM tomcat:10.1.18
 
-COPY /target/Examen_JEE-1.0-SNAPSHOT.war /usr/local/tomcat/webapps/ROOT.war
+COPY src /usr/local/tomcat/webapps/ROOT/
+COPY /target/*.war /usr/local/tomcat/webapps/
 
 EXPOSE 8080
+
+CMD ["catalina.sh", "run"]
