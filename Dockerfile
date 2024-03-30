@@ -1,4 +1,4 @@
-# Utilisez une image de base appropriée pour Java
+# Utilisez une image de base appropriée pour Tomcat
 FROM tomcat:10.1.18
 
 # Copiez le contenu de src dans le répertoire webapps de Tomcat
