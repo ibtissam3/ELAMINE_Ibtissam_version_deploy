@@ -1,4 +1,4 @@
-FROM tomcat:10-jdk11-openjdk
+FROM tomcat:10.1.18
 
 COPY ./target/*.war /usr/local/tomcat/webapps/ROOT.war
 
