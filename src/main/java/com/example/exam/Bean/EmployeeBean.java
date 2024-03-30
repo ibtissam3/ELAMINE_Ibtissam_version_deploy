@@ -24,5 +24,4 @@ public class EmployeeBean {
         return employeeService.getAllEmployees();
     }
 
-    // Autres méthodes et fonctionnalités de la classe EmployeeBean
 }
