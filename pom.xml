@@ -51,6 +51,12 @@
             <artifactId>jakarta.faces</artifactId>
             <version>3.0.0</version>
         </dependency>
+        <dependency>
+            <groupId>jakarta.faces</groupId>
+            <artifactId>jakarta.faces-api</artifactId>
+            <version>3.0.0</version>
+            <scope>provided</scope>
+        </dependency>
 
         <dependency>
             <groupId>jakarta.enterprise</groupId>
