@@ -1,6 +1,6 @@
-FROM tomcat:10-jdk11-openjdk
+FROM tomcat:10.1.18
 
-COPY  ./target/Examen_JEE-1.0-SNAPSHOT /usr/local/tomcat/webapps/ROOT.war
+COPY  ./target  /usr/local/tomcat/webapps/ROOT.war
 
 EXPOSE 8080
 
